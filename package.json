@@ -1,0 +1,14 @@
+{
+  "name": "conecthouse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Altep",
+  "license": "ISC",
+  "dependencies": {
+    "tp-link-tapo-connect": "^1.0.8"
+  }
+}

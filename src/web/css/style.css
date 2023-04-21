@@ -1,0 +1,167 @@
+:root {
+  --color-bg: #F5F5F5;
+  --color-text: #262626;
+  --color-accent: #D8D8D8;
+  --border: #A4A4A4;
+  --color-accent-light: #E8E8E8;
+  --button: #337ab7;
+  --gradient-dark: linear-gradient(to bottom, var(--color-accent), var(--border));
+  --gradient-light: linear-gradient(to bottom, var(--color-accent-light), var(--color-bg));
+}
+
+/* Style pour la top bar */
+.top-bar {
+  background: var(--gradient-light);
+  border: 2px solid var(--border);
+  border-radius: 10px;
+  color: var(--text-color);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-family: Segoe UI, sans-serif;
+}
+/* Style pour le titre */
+.title {
+  font-size: 20px;
+  font-weight: 600;
+}
+/* Style pour le bouton de connexion */
+.connexion-button {
+  background-color: var(--button);
+  border: none;
+  color: #ffffff;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+/* Style pour l'icône de connexion */
+.connexion-icon {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.device {
+  background: var(--gradient-dark);
+  border: 2px solid var(--border);
+  border-radius: 10px;
+  color: var(--text-color);
+  display: flex;
+  height: 10cm;
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-family: Segoe UI, sans-serif;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--color-accent-light);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c2c2c2;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.device-card {
+  display: inline-block; 
+  z-index: 99;
+  zoom: 1; 
+  vertical-align: top; 
+  font-size: 12px;
+  width: 250px;
+  height: 100%;
+  background: var(--gradient-light);
+  border-radius: 10px;
+  border: 2px solid var(--border);
+  margin-left: 10px;
+  flex-shrink: 0;
+}
+.device-card {
+  display: inline-block;
+  width: 250px;
+  background: var(--gradient-light);
+  border: 2px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.device-card-header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background: var(--gradient-dark);
+}
+
+.device-card-logo {
+  width: 200px;
+  height: 200px;
+  margin-top: 2px;
+  margin-left: 26px;
+}
+.device-card-fab-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.device-card-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.device-card-content {
+  padding: 10px;
+}
+
+.device-card-info {
+  font-size: 14px;
+  margin: 0;
+}
+
+.device-card-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: var(--gradient-dark);
+}
+
+.device-card-btn {
+  display: inline-block;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.device-card-btn-modify {
+  background: var(--accent-color);}
+
+.device-card-btn-onoff {
+  
+}
